@@ -1,0 +1,15 @@
+$minWidth: 320px;
+$maxWidth: 1920;
+$maxWidthContainer: 800;
+$xl: 1199.98px;
+$lg: 991.98px;
+$md: 767.98px;
+$sm: 575.98px;
+$breakpoints: (
+  xs: 0,
+  sm: 575.98px,
+  md: 767.98px,
+  lg: 991.98px,
+  xl: 1199.98px,
+  xxl: 1399.98px,
+);

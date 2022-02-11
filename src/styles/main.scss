@@ -1,0 +1,48 @@
+@import 'variables';
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+#root {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  background: rgba(161, 71, 236, 0.05);
+}
+
+.container {
+  max-width: $maxWidthContainer + px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+@media only screen and (max-width: $xl) {
+  .container {
+    padding: 0 3rem;
+  }
+}
+
+@media only screen and (max-width: $lg) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+@media only screen and (max-width: $md) {
+  .container {
+    max-width: 100%;
+    padding: 0 0.4rem;
+  }
+}

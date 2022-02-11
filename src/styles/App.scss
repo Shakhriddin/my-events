@@ -1,0 +1,73 @@
+@import '~antd/dist/antd.css';
+
+.header {
+  &__user {
+    width: 100px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px
+  }
+}
+
+.login {
+  &__row {
+    height: calc(100vh - 64px - 70px);
+  }
+
+  &__error {
+    text-align: center;
+    color: tomato;
+    margin: -1rem 0 0.5rem;
+  }
+}
+
+.calendar {
+  width: 100%;
+  height: calc(100vh - 64px - 70px);
+  overflow: hidden scroll;
+
+  &__event {
+    padding: .5rem;
+  }
+
+  &__row {
+    padding: 0 0 2rem;
+    background: #ffffff;
+  }
+}
+
+.footer {
+  text-align: center;
+  color: rgba(0, 0, 0, .3);
+  letter-spacing: 1px;
+}
+
+/* Custom Scrollbar */
+
+.calendar, .ant-picker-calendar-full .ant-picker-panel .ant-picker-calendar-date-content {
+  scrollbar-color: #e1e7ea #ffffff;
+  scrollbar-width: thin; // 8px
+
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background: #ffffff;
+
+    &-thumb {
+      background: #e1e7ea;
+      border-radius: 2px;
+
+      &:hover {
+        background: #cdd6da;
+      }
+    }
+  }
+}
+
+.ant-picker-calendar-full:hover .ant-picker-panel .ant-picker-calendar-date-content {
+  &::-webkit-scrollbar {
+    background: transparent;
+  }
+}
