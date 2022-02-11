@@ -1,7 +1,7 @@
 # Events app 
 ## You can login as guest with:
-## Usernames: User, Admin
-## Passwords: 123
+### Usernames: User, Admin
+### Passwords: 123
 
 - HTML
 - CSS (SCSS)
