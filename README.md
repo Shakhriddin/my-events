@@ -1,5 +1,5 @@
 # Events app 
-## You can login as guest with:
+## You can login and check events as guest with:
 ### Usernames: User, Admin
 ### Passwords: 123
 
